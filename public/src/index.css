@@ -1,0 +1,113 @@
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+label {
+  display: block;
+  margin: 0.5rem 0;
+}  
+
+a{
+  color: white;
+}
+
+.page_link{
+  color:#282c34;
+}
+
+.toolbar {
+  background-color: #282c34;
+}
+
+p {
+  text-align: center;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+  
+}
+
+form div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+  border: 1px solid gray;
+  font-size: 1.1rem;
+}
+
+button {
+  background-color: rgb(80, 98, 255);
+  color: white;
+  border: none;
+  padding: 0.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 0.3rem;
+}
+
+span a {
+  text-decoration: none;
+  color: rgb(80, 98, 255);
+}
+
+.private {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgb(80, 98, 255);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 3rem;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.private button {
+  background-color: black;
+  padding: 2rem 10rem;
+  font-size: 4rem;
+  border-radius: 2rem;
+}
+h2 {
+  margin: 1rem 0;
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #fff;
+  min-height: 5vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  color: #282c34;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: center;
+
+}
+
+body {
+  margin:0px;
+}
+
